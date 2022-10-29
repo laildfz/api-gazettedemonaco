@@ -1,0 +1,26 @@
+{
+  "name": "admingazetteapi-main",
+  "version": "1.0.0",
+  "description": "AdminGazetteAPI of LaGazetteDeMonaco.com",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.js",
+    "start:prod": "pm2 start src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.28.2",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.19.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-file-upload": "^3.0.0",
+    "fastify-static": "^4.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.0.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  }
+}
